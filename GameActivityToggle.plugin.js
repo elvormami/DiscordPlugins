@@ -198,7 +198,7 @@ class GameActivityToggle {
     const textWrapper = document.createElement("div");
 
     textWrapper.className = tooltipClasses.tooltipContent;
-    textWrapper.innerText = `Turn ${this.gameActivity ? "off" : "on"} game activity`;
+    textWrapper.innerText = `Turn ${this.gameActivity ? "Kapalı" : "Aktif"} Oynuyor Durumu`;
 
     const bottomArrow = document.createElement("div");
     bottomArrow.className = tooltipClasses.tooltipPointer;
